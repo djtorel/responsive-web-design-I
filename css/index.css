@@ -152,9 +152,18 @@ h5 {
 }
 
 /* Your code starts here! */
-.container {
-  margin: 0 auto;
-  width: 876px;
+/* Responsive Images */
+img {
+  max-width: 100%;
+}
+/* MAX WIDTHS */
+.mw8 {
+  max-width: 55rem;
+}
+/* Utilities */
+.center {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .nav {
