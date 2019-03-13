@@ -156,9 +156,19 @@ h5 {
 img {
   max-width: 100%;
 }
+/* FONT SIZE */
+.f1 {
+  font-size: 5rem;
+}
+.f4 {
+  font-size: 1.25rem;
+}
 /* FLEX */
 .flex {
   display: flex;
+}
+.flex-column {
+  flex-direction: column;
 }
 .items-center {
   align-items: center;
@@ -166,19 +176,51 @@ img {
 .justify-between {
   justify-content: space-between;
 }
+.justify-evenly {
+  justify-content: space-evenly;
+}
 
-.self-end {
-  align-self: flex-end;
+.self-center {
+  align-self: center;
+}
+
+/* BORDERS */
+.b {
+  border: 1px solid black;
+}
+.bb {
+  border-bottom: 1px solid black;
 }
 /* COLORS */
+.black {
+  color: black;
+}
 .medium-gray {
   color: #9c9c9c;
+}
+
+.bg-white {
+  background-color: white;
+}
+/* WIDTHS */
+.w5 {
+  width: 11rem;
+}
+.w-50 {
+  max-width: 50%;
 }
 /* MAX WIDTHS */
 .mw8 {
   max-width: 55rem;
 }
+/* HEIGHT */
+.h7 {
+  height: 30rem;
+}
 /* MARGIN */
+.mb-20px {
+  margin-bottom: 20px;
+}
 .mb-30px {
   margin-bottom: 30px;
 }
@@ -186,6 +228,19 @@ img {
 .mv-20px {
   margin-top: 20px;
   margin-bottom: 20px;
+}
+.mv-30px {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+/* PADDING */
+.ph-70px {
+  padding-left: 70px;
+  padding-right: 70px;
+}
+.pv-7px {
+  padding-top: 7px;
+  padding-bottom: 7px;
 }
 /* TEXT ALIGN */
 .tc {
@@ -196,55 +251,13 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
+.pointer {
+  cursor: pointer;
+}
 
 .link {
   text-decoration: none;
   color: #9c9c9c;
-}
-
-.links {
-  padding-top: 10px;
-}
-
-.header {
-  border-bottom: 1px solid black;
-  margin: 30px 0;
-  padding: 30px 0 70px 0;
-}
-
-.main-header {
-  font-size: 80px;
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-.header-left {
-  width: 50%;
-  display: inline-block;
-  padding: 0 70px;
-  margin-right: 30px;
-  margin-top: 40px;
-  vertical-align: top;
-}
-
-.header-button {
-  text-align: center;
-}
-
-.btn-get-started {
-  width: 180px;
-  padding: 5px 0;
-  border: 1px solid black;
-  font-family: 'Titillium Web', sans-serif;
-  font-size: 18px;
-  font-weight: lighter;
-  cursor: pointer;
-  background-color: white;
-  color: black;
-}
-
-.img-header {
-  display: inline-block;
 }
 
 .top-section-item.left {
