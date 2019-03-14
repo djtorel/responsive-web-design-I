@@ -319,10 +319,17 @@ img {
     margin-right: 20px;
   }
   /* Padding */
+  .pt-30px-m {
+    padding-top: 30px;
+  }
+  .pb-60px-m {
+    padding-bottom: 60px;
+  }
   .ph0-m {
     padding-left: 0px;
     padding-right: 0px;
   }
+  /* Width */
   .w-100-m {
     width: 100%;
   }
@@ -332,6 +339,10 @@ img {
   }
   .mw-48-m {
     max-width: 48%;
+  }
+  /* Height */
+  .h-100-m {
+    height: 100%;
   }
 }
 
