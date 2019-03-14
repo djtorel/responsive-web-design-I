@@ -214,6 +214,9 @@ img {
   background-color: white;
 }
 /* WIDTHS */
+.w-300px {
+  width: 300px;
+}
 .w5 {
   width: 11rem;
 }
@@ -226,9 +229,6 @@ img {
 }
 .mw-32 {
   max-width: 32%;
-}
-.mw-50 {
-  max-width: 50%;
 }
 /* HEIGHT */
 .h7 {
@@ -311,9 +311,6 @@ img {
   .mr-20px-m {
     margin-right: 20px;
   }
-  .mr-40px-m {
-    margin-right: 40px;
-  }
   .mb-40px-m {
     margin-bottom: 40px;
   }
@@ -325,10 +322,6 @@ img {
   .ph0-m {
     padding-left: 0px;
     padding-right: 0px;
-  }
-  /* Width */
-  .w-40-m {
-    width: 40%;
   }
   .w-100-m {
     width: 100%;
@@ -352,6 +345,9 @@ img {
   }
   .justify-s {
     justify-content: center;
+  }
+  .self-center-s {
+    align-self: center;
   }
   /* Border */
   .bb-s {
