@@ -297,6 +297,9 @@ img {
   .justify-center-m {
     justify-content: center;
   }
+  .justify-around-m {
+    justify-content: space-around;
+  }
   .order-1-m {
     order: 1;
   }
@@ -305,6 +308,9 @@ img {
     display: none;
   }
   /* Margin */
+  .mr-20px-m {
+    margin-right: 20px;
+  }
   .mr-40px-m {
     margin-right: 40px;
   }
@@ -326,5 +332,12 @@ img {
   }
   .w-100-m {
     width: 100%;
+  }
+  /* Max Width */
+  .mw-30-m {
+    max-width: 30%;
+  }
+  .mw-48-m {
+    max-width: 48%;
   }
 }
