@@ -224,6 +224,9 @@ img {
 .mb-30px {
   margin-bottom: 30px;
 }
+.mb-40px {
+  margin-bottom: 40px;
+}
 /* Vertical / Horizontal Margin */
 .mv-20px {
   margin-top: 20px;
@@ -258,32 +261,6 @@ img {
 .link {
   text-decoration: none;
   color: #9c9c9c;
-}
-
-.top-section-item.left {
-  display: inline-block;
-  width: 50%;
-  margin-bottom: 40px;
-  margin-right: 4px;
-}
-.top-section-item.right {
-  display: inline-block;
-  width: 49%;
-}
-
-.middle-img {
-  margin-bottom: 40px;
-}
-
-.bottom-section-item {
-  width: 32%;
-  display: inline-block;
-  margin-bottom: 45px;
-  margin-left: 10px;
-}
-
-.bottom-section-item.first-item {
-  margin: 0;
 }
 
 .contact-section {
