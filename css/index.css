@@ -294,8 +294,15 @@ img {
   .flex-column-m {
     flex-direction: column;
   }
+  .justify-center-m {
+    justify-content: center;
+  }
   .order-1-m {
     order: 1;
+  }
+  /* Display */
+  .dn-m {
+    display: none;
   }
   /* Margin */
   .mr-40px-m {
@@ -308,7 +315,15 @@ img {
     margin-left: 20px;
     margin-right: 20px;
   }
+  /* Padding */
+  .ph0-m {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
   /* Width */
+  .w-40-m {
+    width: 40%;
+  }
   .w-100-m {
     width: 100%;
   }
