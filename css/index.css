@@ -217,8 +217,8 @@ img {
 .w5 {
   width: 11rem;
 }
-.w-50 {
-  max-width: 50%;
+.w-70 {
+  width: 70%;
 }
 /* MAX WIDTHS */
 .mw8 {
@@ -226,6 +226,9 @@ img {
 }
 .mw-32 {
   max-width: 32%;
+}
+.mw-50 {
+  max-width: 50%;
 }
 /* HEIGHT */
 .h7 {
@@ -284,4 +287,29 @@ img {
 .link {
   text-decoration: none;
   color: #9c9c9c;
+}
+
+@media (max-width: 800px) {
+  /* Flex */
+  .flex-column-m {
+    flex-direction: column;
+  }
+  .order-1-m {
+    order: 1;
+  }
+  /* Margin */
+  .mr-40px-m {
+    margin-right: 40px;
+  }
+  .mb-40px-m {
+    margin-bottom: 40px;
+  }
+  .mh-20px-m {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  /* Width */
+  .w-100-m {
+    width: 100%;
+  }
 }
