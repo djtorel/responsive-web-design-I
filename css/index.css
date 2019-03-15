@@ -1,3 +1,400 @@
 /* Use your own code or past solution for Great Idea Web Page CSS here! */
 
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
 
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Bangers', cursive;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+}
+
+/* Your code starts here! */
+/* Responsive Images */
+img {
+  max-width: 100%;
+}
+/* FONT SIZE */
+.f1 {
+  font-size: 5rem;
+}
+.f4 {
+  font-size: 1.25rem;
+}
+/* FLEX */
+.flex {
+  display: flex;
+}
+.flex-column {
+  flex-direction: column;
+}
+.items-center {
+  align-items: center;
+}
+.justify-center {
+  justify-content: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.justify-evenly {
+  justify-content: space-evenly;
+}
+
+.self-center {
+  align-self: center;
+}
+
+/* BORDERS */
+.b {
+  border: 1px solid black;
+}
+.bb {
+  border-bottom: 1px solid black;
+}
+.bt {
+  border-top: 1px solid black;
+}
+
+/* Border width */
+.bw1 {
+  border-width: 0.125rem;
+}
+/* COLORS */
+.black {
+  color: black;
+}
+.medium-gray {
+  color: #9c9c9c;
+}
+
+.bg-white {
+  background-color: white;
+}
+/* WIDTHS */
+.w-300px {
+  width: 300px;
+}
+.w5 {
+  width: 11rem;
+}
+.w-70 {
+  width: 70%;
+}
+/* MAX WIDTHS */
+.mw8 {
+  max-width: 55rem;
+}
+.mw-32 {
+  max-width: 32%;
+}
+/* HEIGHT */
+.h7 {
+  height: 30rem;
+}
+/* MARGIN */
+.mb-15px {
+  margin-bottom: 15px;
+}
+.mb-20px {
+  margin-bottom: 20px;
+}
+.mb-30px {
+  margin-bottom: 30px;
+}
+.mb-40px {
+  margin-bottom: 40px;
+}
+.mt-40px {
+  margin-top: 40px;
+}
+/* Vertical / Horizontal Margin */
+.mv-20px {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.mv-30px {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+/* PADDING */
+.pt-30px {
+  padding-top: 30px;
+}
+.ph-70px {
+  padding-left: 70px;
+  padding-right: 70px;
+}
+.pv-7px {
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+/* TEXT ALIGN */
+.tc {
+  text-align: center;
+}
+/* UTILITIES */
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+.pointer {
+  cursor: pointer;
+}
+
+.link {
+  text-decoration: none;
+  color: #9c9c9c;
+}
+
+@media (max-width: 800px) {
+  /* Flex */
+  .flex-column-m {
+    flex-direction: column;
+  }
+  .justify-center-m {
+    justify-content: center;
+  }
+  .justify-around-m {
+    justify-content: space-around;
+  }
+  .order-1-m {
+    order: 1;
+  }
+  /* Display */
+  .dn-m {
+    display: none;
+  }
+  /* Margin */
+  .mr-20px-m {
+    margin-right: 20px;
+  }
+  .mb-40px-m {
+    margin-bottom: 40px;
+  }
+  .mh-20px-m {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  /* Padding */
+  .pt-30px-m {
+    padding-top: 30px;
+  }
+  .pb-60px-m {
+    padding-bottom: 60px;
+  }
+  .ph0-m {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  /* Width */
+  .w-100-m {
+    width: 100%;
+  }
+  /* Max Width */
+  .mw-30-m {
+    max-width: 30%;
+  }
+  .mw-48-m {
+    max-width: 48%;
+  }
+  /* Height */
+  .h-100-m {
+    height: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  /* Flex */
+  .flex-column-s {
+    flex-direction: column;
+  }
+  .justify-center-s {
+    justify-content: center;
+  }
+  .justify-s {
+    justify-content: center;
+  }
+  .self-center-s {
+    align-self: center;
+  }
+  /* Border */
+  .bb-s {
+    border-bottom: 1px solid black;
+  }
+  /* Width */
+  .w-100-s {
+    width: 100%;
+  }
+
+  .mw-100-s {
+    max-width: 100%;
+  }
+
+  /* Margin */
+  .m0-s {
+    margin: 0px;
+  }
+
+  .mv-30px-s {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .mh-20px-s {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  /* Padding */
+  .ph-20px-s {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .pv-20px-s {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+/* mvp complete */
